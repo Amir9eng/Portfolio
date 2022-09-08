@@ -1,4 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
+import propertyImg from '../public/assets/projects/property.jpg'
+import cryptoImg from '../public/assets/projects/crypto.jpg'
+import netflixImg from '../public/assets/projects/netflix.jpg'
+import twitchImg from '../public/assets/projects/twitch.jpg'
+import Link from 'next/link'
+import ProjectItem from './ProjectItem'
 
 const Projects = () => {
   return (
@@ -9,7 +16,30 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I’ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <div className='relative flex items-center justify-center w-full shadow-xl shadow-gray-400 runded-xl p-4 group bg-gradient-to-r from-[#5651e5] to-[#709dff]'></div>
+          <ProjectItem
+            title='Property Finder'
+            backgroundImg={propertyImg}
+            projectUrl='/property'
+            tech='React JS'
+          />
+          <ProjectItem
+            title='Crypto App'
+            backgroundImg={cryptoImg}
+            projectUrl='/property'
+            tech='React JS'
+          />
+          <ProjectItem
+            title='Netflix App'
+            backgroundImg={netflixImg}
+            projectUrl='/property'
+            tech='React JS'
+          />
+          <ProjectItem
+            title='Twitch UI'
+            backgroundImg={twitchImg}
+            projectUrl='/property'
+            tech='React JS'
+          />
         </div>
       </div>
     </div>
