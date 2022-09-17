@@ -24,13 +24,29 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  ease-in duration-300'>
-              <FaLinkedinIn />
+              {/* <FaLinkedinIn /> */}
+              <a
+                href='https://www.linkedin.com/in/muhammad-mukhtar-9ab2bb249/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FaLinkedinIn />
+              </a>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  ease-in duration-300'>
-              <FaGithub />
+              <a
+                href='https://github.com/Amir9eng'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FaGithub />
+              </a>
             </div>
+
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  ease-in duration-300'>
-              <AiOutlineMail />
+              <a href='mailto:amirmukhtarme@gmail.com'>
+                <AiOutlineMail />
+              </a>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  ease-in duration-300'>
               <BsFillPersonLinesFill />
