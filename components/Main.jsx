@@ -3,6 +3,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Link from 'next/link'
 
 const Main = () => {
   return (
@@ -25,31 +26,36 @@ const Main = () => {
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  ease-in duration-300'>
               {/* <FaLinkedinIn /> */}
-              <a
+              <Link
                 href='https://www.linkedin.com/in/muhammad-mukhtar-9ab2bb249/'
                 target='_blank'
                 rel='noreferrer'
               >
                 <FaLinkedinIn />
-              </a>
+              </Link>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  ease-in duration-300'>
-              <a
+              <Link
                 href='https://github.com/Amir9eng'
                 target='_blank'
                 rel='noreferrer'
               >
                 <FaGithub />
-              </a>
+              </Link>
             </div>
 
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  ease-in duration-300'>
-              <a href='mailto:amirmukhtarme@gmail.com'>
+              <Link href='mailto:amirmukhtarme@gmail.com'>
                 <AiOutlineMail />
-              </a>
+              </Link>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110  ease-in duration-300'>
-              <BsFillPersonLinesFill />
+              <a
+                href='https://docs.google.com/document/d/1a67xFTk8aU6hNO8-D-6oIhbFupz-LYiOtJ0c7XdEOCo/edit?usp=sharing'
+                target='#blank'
+              >
+                <BsFillPersonLinesFill />
+              </a>
             </div>
           </div>
         </div>

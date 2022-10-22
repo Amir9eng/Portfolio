@@ -60,13 +60,14 @@ const Contact = () => {
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+                  <a
+                    href='https://docs.google.com/document/d/1a67xFTk8aU6hNO8-D-6oIhbFupz-LYiOtJ0c7XdEOCo/edit?usp=sharing'
+                    target='#blank'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
