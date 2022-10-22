@@ -34,8 +34,12 @@ const estate = () => {
             property integrated with the Bayut API. This is made possible with
             Rapid APIs.
           </p>
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <a href='http://estate-kappa.vercel.app'>
+            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+          </a>
+          <a href='https://github.com/Amir9eng/Real-Estate'>
+            <button className='px-8 py-2 mt-4'>Code</button>
+          </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
