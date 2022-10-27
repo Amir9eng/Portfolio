@@ -55,7 +55,11 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-                  <a href='mailto:amirmukhtarme@gmail.com'>
+                  <a
+                    href='mailto:amirmukhtarme@gmail.com'
+                    target='#blank'
+                    rel='noreferrer'
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <AiOutlineMail />
                     </div>
@@ -63,6 +67,7 @@ const Contact = () => {
                   <a
                     href='https://docs.google.com/document/d/1a67xFTk8aU6hNO8-D-6oIhbFupz-LYiOtJ0c7XdEOCo/edit?usp=sharing'
                     target='#blank'
+                    rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <BsFillPersonLinesFill />
