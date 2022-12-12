@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -30,9 +31,11 @@ const About = () => {
             am now spending my time building projects with ReactJs, Firebase,
             and learning new technologies.
           </p>
-          <p className='py-2 text-gray-600 underline cursor-pointer'>
-            Check out some of my latest projects
-          </p>
+          <Link href='/#Projects'>
+            <p className='py-2 text-gray-600 underline cursor-pointer'>
+              Check out some of my latest projects
+            </p>
+          </Link>
         </div>
         <div className='w-full h-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <img
