@@ -26,13 +26,11 @@ const agency = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using Next JS and is hosted on Vercel. Users are
-            able to search properties based on a set of filters like Rooms,
-            Price,Purpose, Property Type and so on to retrieve a list of active
-            properties currently for sale or for rent. You will be able to view
-            property information as well as the specific location of the
-            property integrated with the Bayut API. This is made possible with
-            Rapid APIs.
+            This app was built using Next JS and is hosted on Vercel. It is a UI
+            clone of a social media agency website built using NextJS and
+            tailwind CSS, it boasts of responsiveness, smooth scroll and fast
+            refresh. It is a complete website that contains everything short of
+            an API Integration.
           </p>
           <a
             href='https://social-media-agency.vercel.app/'
