@@ -17,8 +17,8 @@ const agency = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finder</h2>
-          <h3>Next JS / Chakra UI / Rapid API</h3>
+          <h2 className='py-2'>Social Media Website</h2>
+          <h3>Next JS / Chakra UI / Tailwind CSS</h3>
         </div>
       </div>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-5 gap-8 pt-8 '>
