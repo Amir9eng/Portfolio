@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import EstateImg from '../public/assets/projects/Estate.png'
 import agencyImg from '../public/assets/projects/agency.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
+import lawImg from '../public/assets/projects/law.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
@@ -29,9 +29,9 @@ const Projects = () => {
             tech='Next JS'
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/property'
+            title='Law Parlance'
+            backgroundImg={lawImg}
+            projectUrl='/law'
             tech='React JS'
           />
           <ProjectItem

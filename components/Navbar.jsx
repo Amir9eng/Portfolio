@@ -14,7 +14,11 @@ const Navbar = () => {
   const router = useRouter()
 
   useEffect(() => {
-    if (router.asPath === '/estate' || router.asPath === '/agency') {
+    if (
+      router.asPath === '/estate' ||
+      router.asPath === '/agency' ||
+      router.asPath === '/law'
+    ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
     } else {
