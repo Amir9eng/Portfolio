@@ -18,7 +18,7 @@ const law = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Law Parlance</h2>
-          <h3>Next JS / NodeJs / MongoDB</h3>
+          <h3>TypeScript / NodeJs / MongoDB</h3>
         </div>
       </div>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-5 gap-8 pt-8 '>
