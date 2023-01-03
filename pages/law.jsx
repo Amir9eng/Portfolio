@@ -21,7 +21,7 @@ const law = () => {
           <h3>TypeScript / NodeJs / MongoDB</h3>
         </div>
       </div>
-      <div className='max-w-[1240px] mx-auto grid md:grid-cols-5 gap-8 pt-8 '>
+      <div className='max-w-[1240px] mx-auto grid md:grid-cols-5 gap-8 pt-8 px-4'>
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
@@ -39,7 +39,7 @@ const law = () => {
             target='#blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-10'>Demo</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -75,7 +75,7 @@ const law = () => {
           </div>
         </div>
         <Link href='/#Projects'>
-          <p className='underline cursor-pointer mb-4'>Back</p>
+          <p className='underline cursor-pointer mb-4 pl-2'>Back</p>
         </Link>
       </div>
     </div>
