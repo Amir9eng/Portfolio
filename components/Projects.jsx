@@ -10,11 +10,11 @@ import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
     <div id="Projects" className="w-full">
-      <div className="ma-w-[1240px] mx-auto px-24 py-16">
+      <div className="max-w-[1240px] mx-auto px-4 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
-        <h2 className="py-4">What I’ve Built</h2>
+        <h2 className="py-4 whitespace-nowrap">What I’ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Property Finder"
