@@ -23,10 +23,10 @@ const Projects = () => {
             tech="Next JS"
           />
           <ProjectItem
-            title="Real Estate App"
+            title="Resort Website"
             backgroundImg={propertyImg}
             projectUrl="/property"
-            tech="Next JS"
+            tech="Vite JS"
           />
           <ProjectItem
             title="Law Parlance"
