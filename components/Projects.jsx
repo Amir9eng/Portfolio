@@ -4,7 +4,6 @@ import EstateImg from '../public/assets/projects/Estate.png';
 import propertyImg from '../public/assets/projects/property.png';
 import lawImg from '../public/assets/projects/law.jpg';
 import metaverseImg from '../public/assets/projects/metaverse.png';
-import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
