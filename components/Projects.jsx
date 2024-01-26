@@ -3,7 +3,7 @@ import React from 'react';
 import EstateImg from '../public/assets/projects/Estate.png';
 import propertyImg from '../public/assets/projects/property.png';
 import lawImg from '../public/assets/projects/law.jpg';
-import metaverseImg from '../public/assets/projects/metaverse.png';
+import afrihealthImg from '../public/assets/projects/afrihealth.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -34,9 +34,9 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
-            title="Metaverse UI"
-            backgroundImg={metaverseImg}
-            projectUrl="/metaverse"
+            title="Afrihealth"
+            backgroundImg={afrihealthImg}
+            projectUrl="/afrihealth"
             tech="React JS"
           />
         </div>
