@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import EstateImg from '../public/assets/projects/Estate.png';
 import propertyImg from '../public/assets/projects/property.png';
-import lawImg from '../public/assets/projects/law.jpg';
+import digitalImg from '../public/assets/projects/digital.png';
 import afrihealthImg from '../public/assets/projects/afrihealth.png';
 import ProjectItem from './ProjectItem';
 
@@ -28,9 +28,9 @@ const Projects = () => {
             tech="Vite JS"
           />
           <ProjectItem
-            title="Law Parlance"
-            backgroundImg={lawImg}
-            projectUrl="/law"
+            title="Digital Leaps"
+            backgroundImg={digitalImg}
+            projectUrl="/digital"
             tech="React JS"
           />
           <ProjectItem
