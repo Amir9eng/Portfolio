@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import EstateImg from '../public/assets/projects/Estate.png';
+import EstateImg from '../public/assets/projects/tidelab.png';
 import propertyImg from '../public/assets/projects/property.png';
 import digitalImg from '../public/assets/projects/digital.png';
 import afrihealthImg from '../public/assets/projects/afrihealth.png';
@@ -16,21 +16,9 @@ const Projects = () => {
         <h2 className="py-4 whitespace-nowrap">What I’ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
+            title="Tidelab Website"
             backgroundImg={EstateImg}
             projectUrl="/estate"
-            tech="Next JS"
-          />
-          <ProjectItem
-            title="Resort Website"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
-            tech="Vite JS"
-          />
-          <ProjectItem
-            title="Digital Leaps"
-            backgroundImg={digitalImg}
-            projectUrl="/digital"
             tech="React JS"
           />
           <ProjectItem
@@ -38,6 +26,13 @@ const Projects = () => {
             backgroundImg={afrihealthImg}
             projectUrl="/afrihealth"
             tech="React JS"
+          />
+          git
+          <ProjectItem
+            title="Resort Website"
+            backgroundImg={propertyImg}
+            projectUrl="/property"
+            tech="Vite JS"
           />
         </div>
       </div>
